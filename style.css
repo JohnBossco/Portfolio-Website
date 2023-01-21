@@ -1,0 +1,283 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#horizontalList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#horizontalList a {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #89abe3ff;
+  font-size: 1.8rem;
+  -webkit-text-stroke: 1px #f8f8f8;
+  text-shadow: 0px 2px 4px blue;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  text-decoration: none;
+}
+
+#horizontalList a:hover {
+  opacity: 0.4;
+  transform: scale(1.1);
+}
+
+.frontCenter {
+  padding-top: 13.8rem;
+}
+
+.frontCenter h1,
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.frontCenter h1 {
+  font-size: 4.5rem;
+  font-family: "Changa", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.frontCenter h2 {
+  font-size: 1.8rem;
+  color: #89abe3ff;
+  -webkit-text-stroke: 1px #f8f8f8;
+  text-shadow: 0px 2px 4px blue;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.imageContainer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-color: rgba(1, 18, 246, 0.553);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.imageContainer::before {
+  content: "";
+  background-image: url(./Images/kevin-ku-w7ZyuGYNpRQ-unsplash\ \(1\)\ \(1\).jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.frontPage {
+  position: relative;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.aboutSideBar {
+  width: 50%;
+  text-align: center;
+  background-color: #89abe3ff;
+  font-size: 2.5rem;
+  padding-top: 13rem;
+  line-height: 1;
+  font-family: "Changa", sans-serif;
+}
+
+.aboutSideInfo {
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+.myInformation {
+  padding: 10px;
+}
+
+.myInformation h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Changa", sans-serif;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.me {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.myInformation h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: oblique;
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.projectSideBar {
+  width: 50%;
+  text-align: center;
+  background-color: #89abe3ff;
+  font-size: 2.5rem;
+  font-family: "Changa", sans-serif;
+  align-items: center;
+}
+
+.projectSideBar h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 40%;
+}
+
+.activeProject {
+  position: relative;
+  display: flex;
+  width: 50%;
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.myProjects {
+  margin: auto;
+  text-align: center;
+  height: 30%;
+  width: 35%;
+}
+
+.myProjects h2 {
+  position: relative;
+  color: white;
+  margin-bottom: 22%;
+  font-size: 1.66rem;
+}
+
+.myProjects p {
+  position: relative;
+  color: white;
+  padding-block: 5%;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.myProjects a {
+  position: relative;
+  color: white;
+  padding-block: 5%;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.myProjects:hover {
+  transform: scale(1.1);
+}
+
+.text a:hover {
+  color: blue;
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+#project1 {
+  background-image: url(./Images/javascript-hero-1652702096795.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 8% 50%;
+}
+
+#project2 {
+  background-image: url(./Images/384866_5429_XXL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 8% 50%;
+}
+
+#project3 {
+  background-image: url(./Images/394e36ccbc2e96bd891091dabd31f0836ffae6f55de8d796dd2242237551a9bd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#project4 {
+  background-image: url(./Images/michael-jordan-091919-getty-ftrjpg_t2eiwtranpan15pq39v60uglb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#project5 {
+  background-image: url(./Images/Untitled-design-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#project6 {
+  background-image: url(./Images/chrome_kLRAF0c7zJ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 50%;
+}
+
+#project6 p {
+  padding-top: 47%;
+  padding-left: 5%;
+}
+
+.contactInfo {
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(47, 53, 100);
+  color: white;
+  text-align: center;
+  font-family: "Changa", sans-serif;
+}
+
+.contactInfo h1 {
+  font-size: 3.5rem;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.contactInfo h2 {
+  padding-bottom: 3%;
+  font-size: 2rem;
+}
+
+.contactInfo img {
+  padding-inline: 3rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.contactInfo img:hover {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
