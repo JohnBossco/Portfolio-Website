@@ -1,3 +1,14 @@
+@media screen and (min-width: 1900px){
+  html{
+      font-size: 18px;
+  }
+}
+@media screen and (max-width: 1200px){
+  html{
+      font-size: 14px;
+  }
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -172,14 +183,18 @@ h2 {
 
 .myProjects h2 {
   position: relative;
-  color: white;
+  color: #000000;
+  -webkit-text-stroke: 1px #f8f8f8;
+  text-shadow: 0px 2px 4px black;
   margin-bottom: 22%;
-  font-size: 1.66rem;
+  font-size: 1.48rem;
 }
 
 .myProjects p {
   position: relative;
-  color: white;
+  color: black;
+  -webkit-text-stroke: 0.5px #f8f8f8;
+  text-shadow: 0px 3px 4px black;
   padding-block: 5%;
   text-decoration: underline;
   font-size: 1.5rem;
@@ -258,20 +273,29 @@ h2 {
   color: white;
   text-align: center;
   font-family: "Changa", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-
+.fix{
+  margin-top: 4%;
+}
 .contactInfo h1 {
   font-size: 3.5rem;
-  padding-top: 5%;
-  padding-bottom: 1%;
+  flex-basis: 100%;
+  margin-bottom: 0;
 }
 
 .contactInfo h2 {
-  padding-bottom: 3%;
   font-size: 2rem;
+  flex-basis: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .contactInfo img {
+  margin-top: 5%;
   padding-inline: 3rem;
   height: 5rem;
   width: 5rem;
