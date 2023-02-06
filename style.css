@@ -116,6 +116,7 @@ h2 {
 .aboutSideInfo {
   width: 50%;
   background-color: whitesmoke;
+  overflow: auto;
 }
 
 .myInformation {
@@ -124,9 +125,19 @@ h2 {
 
 .myInformation h2 {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: "Changa", sans-serif;
   font-family: "IBM Plex Serif", serif;
+}
+
+.info{
+  text-decoration-line: underline;
+}
+
+.myInformation h3{
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .me {
