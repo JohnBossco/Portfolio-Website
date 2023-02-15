@@ -191,7 +191,7 @@ h2 {
 .myProjects {
   margin: auto;
   text-align: center;
-  height: 30%;
+  height: 29%;
   width: 35%;
 }
 
@@ -239,13 +239,16 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 8% 50%;
+  border: 1px solid black;
 }
 
 #project2 {
-  background-image: url(./Images/384866_5429_XXL.jpg);
+  background-image: url(./Images/il_570xN.1799315681_ii1x.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 8% 50%;
+  border: 1px solid black;
+
 }
 
 #project3 {
@@ -253,12 +256,16 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  border: 1px solid black;
+
 }
 
 #project4 {
   background-image: url(./Images/michael-jordan-091919-getty-ftrjpg_t2eiwtranpan15pq39v60uglb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid black;
+
 }
 
 #project5 {
@@ -266,6 +273,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  border: 1px solid black;
 }
 
 #project6 {
@@ -273,6 +281,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% 50%;
+  border: 1px solid black;
+
 }
 
 #project6 p {
